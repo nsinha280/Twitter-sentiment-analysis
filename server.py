@@ -20,9 +20,7 @@ from colour import Color
 from numpy import median
 
 i = sys.argv.index('server:app')
-twitter_auth_filename = sys.argv[i+1] # e.g., "/Users/parrt/Dropbox/licenses/twitter.csv"
-#twitter_auth_filename = sys.argv[1]
-
+twitter_auth_filename = sys.argv[i+1] 
 
 api = authenticate(twitter_auth_filename)
 
